@@ -1,0 +1,111 @@
+{
+  "projects": [
+    {
+      "name": "Book Store - E-commerce store",
+      "description": "Single page Application Ecommerce store where users can buy and sell books.",
+      "img": "https://mouadhalli.com/images/bookstore.png",
+      "bullets": [
+        "- Users can login with their Google Account or create an account with username, email, password.",
+        "- Users have access to a dashboard that contains their profile, store, orders.",
+        "- Users can Search for books by their favorite genre, language, author.",
+        "- Users can add books to their cart increase or decreate quantity.",
+        "- Payment is done with stripe gateway.",
+        "- Front-end, Back-end, Database each runs in its dedicated docker container.",
+        "- Application containers managed using kubernetes."
+      ],
+      "skills": [
+        "TypeScript",
+        "React-js",
+        "Tailwind-CSS",
+        "Node-js",
+        "Mongo-DB",
+        "Kubernetes",
+        "Docker"
+      ],
+      "source": "https://github.com/mouad-halli/bookstore-react-app",
+      "live": "",
+      "preview": ""
+    },
+    {
+      "name": "ft_transcendence - Team Project",
+      "description": "ft_transcendence is a single page Application where users can chat and play a real time multiplayer online game",
+      "img": "https://mouadhalli.com/images/bookstore.png",
+      "bullets": [
+        "- Users can secure their account with two factor authentication.",
+        "- Users can send and receive friend requests.",
+        "- Users can play an online Ping-pong game.",
+        "- You can search for users by their name, send friend request or block them.",
+        "- You can play an online Ping-pong game, search for opponents or challenge your friends.",
+        "- You can chat with your friends, create (public, private, protected) channels where you can assign admin roles, block, mute members and add freinds to the channel."
+      ],
+      "skills": ["TypeScript", "Nest-js", "TypeORM", "Socket.io"],
+      "source": "https://github.com/mouadhalli/ft_transcendence",
+      "live": "",
+      "preview": ""
+    },
+    {
+      "name": "ft_services - System Administration and Networking Project",
+      "description": "ft_services is an introduction to kubernetes, discovering cluster managment, deployment, networking and clustering visualization",
+      "img": "https://mouadhalli.com/images/bookstore.png",
+      "bullets": [
+        "- Creating an infrastructure of different services",
+        "- Setting up a multi-services cluster, each service run in a dedicated container",
+        "- The Services are Nginx, WordPress, MySQL, PhpMyAdmin, FTPS, Grafana, InfluxDB",
+        "- Services configured With LivnessProbe for containers health check, PersistentVolumeClaim for data persistence",
+        "- Load Balancing is done with metalLB",
+        ""
+      ],
+      "skills": ["Kubernetes", "Docker", "Nginx"],
+      "source": "https://github.com/mouadhalli/1337_ft_services",
+      "live": "",
+      "preview": ""
+    },
+    {
+      "name": "Tasks Lists",
+      "description": "Tasks Lists is a small single page Application built with react-js and css where users can create customizable lists of tasks",
+      "img": "https://mouadhalli.com/images/bookstore.png",
+      "bullets": [
+        "- User have access to an interface where he can create a List of Tasks and customize its colors",
+        "- User can track his tasks and mark them as complete"
+      ],
+      "skills": ["React-js", "Css"],
+      "source": "https://github.com/mouad-halli/tasks-lists-react-css",
+      "live": "https://codesandbox.io/p/github/mouad-halli/tasks-lists-react-css",
+      "preview": ""
+    },
+    {
+      "name": "XO - 3D Three.js Online Runtime Game",
+      "description": "XO is a Three.js MERN stack Socket.io online runtime game, bundled with chat and live streaming .",
+      "img": "https://mouadhalli.com/images/bookstore.png",
+      "bullets": [
+        "- Users can play the famous Tic-tac-toe game with more features, they have access to an ingame chat .",
+        "- Users can also watch a live streaming of Games being played .",
+        "- Users have access to a Toke based authentication system where they can create their account."
+      ],
+      "skills": [
+        "Three-js",
+        "React-js",
+        "Node-js",
+        "Express-js",
+        "Socket.io",
+        "MongoDB"
+      ],
+      "source": "https://github.com/HolmesD0/3D-XO",
+      "live": "https://r9ckse.csb.app",
+      "preview": "https://res.cloudinary.com/upwork-fp/video/upload/c_scale,w_1000,q_auto/v1662324043/profile/portfolio/1382771310841618432/ywkbrnmohw0je3ealwkk.mp4"
+    },
+    {
+      "name": "Gundam - 3D Three.js Interface",
+      "description": "Gundam Project is a Three.js 3D interface with a customizable 3D Model .",
+      "img": "https://mouadhalli.com/images/bookstore.png",
+      "bullets": [
+        "- Users have access to a 3D Work interface and a 3D customizable Gundam Sazabi model .",
+        "- Users can customize all parts, colour, and shadow boldness of their Gundam Sazabi model"
+      ],
+      "skills": ["Three-js", "React-js", "React-Color", "sass"],
+      "source": "https://github.com/HolmesD0/Gundam",
+      "live": "https://9zlwo3.csb.app/",
+      "preview": "https://res.cloudinary.com/upwork-fp/video/upload/c_scale,w_1000,q_auto/v1662316617/profile/portfolio/1382771310841618432/w8adntnvaaqu0cpd8f9s.mp4"
+    }
+  ]
+}
